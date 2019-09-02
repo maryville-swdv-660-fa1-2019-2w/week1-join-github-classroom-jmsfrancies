@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+coloroma = "*"
+colorama = {editable = true,git = "https://github.com/tartley/colorama.git",ref = "v0.40.1"}
+graphics = {editable = true,git = "https://github.com/kidGodzilla/graphics.py.git",ref = "v5.0"}
+image-optimizer = "*"
+
+[packages]
+python3-7 = "*"
+colorama = {editable = true,git = "https://github.com/tartley/colorama.git",ref = "v0.40.1"}
+graphics = {editable = true,git = "https://github.com/kidGodzilla/graphics.py.git",ref = "v5.0"}
+image-optimizer = "*"
+
+[requires]
+python_version = "3.7"
